@@ -1,0 +1,4232 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background: url("background/index19.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    position: fixed;
+    background: url("background/index19.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    display: block;
+    height: 110px;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 2px rgb(187, 142, 28);
+}
+#home header img{
+    margin-left: 200px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+header nav{
+    margin-left: 500px;
+    margin-top: -80px;
+    border: 2px solid goldenrod;
+    width: 630px;
+    box-shadow: 2px 2px 2px 2px rgb(187, 142, 28);
+    border-radius: 10px;
+}
+header nav:hover{
+    box-shadow: 3px 3px 3px 3px rgb(255, 183, 0);
+    transition: 0.4s;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+header nav ul li:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: goldenrod;
+}
+#btn{
+    display: none;
+    position: relative;
+    appearance: none;
+    border: none;
+    outline: none;
+    background:none;
+    cursor: pointer;
+    user-select: none;
+}
+#btn span{
+    display: block;
+    width: 33px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 6px;
+    transform-origin: 0 0;
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+#home section .img1{
+    margin-left: -8px;
+}
+#home section .img2{
+    float: right;
+    margin-top: -5px;
+}
+article{
+    color: #fff;
+    text-align: center;
+    margin-top: -400px;
+}
+article div{
+    font-size: 30px;
+    border-radius: 2px;
+    border: 5px solid rgb(218, 156, 0);
+    width: 301px;
+    text-align: center;
+    margin-left: 510px;
+    border-radius: 10px;
+}
+article div p{
+    height: 5px;
+    margin-top: 5px;
+}
+article div div{
+    background-color: rgb(218, 156, 0);
+    width: 295px;
+    height: 45px;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+article div div p{
+    text-shadow: 2px 2px 2px black;
+    animation: animates 2s linear infinite;
+}
+@keyframes animates{
+    0%{
+        color: white;
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        color: #e5f403;
+        filter: hue-rotate(360deg);
+    }
+}
+article div div p{
+    margin-top: 7px;
+}
+article #p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.76);
+    margin-left: 320px;
+}
+article #p{
+    text-shadow: 1px 1px 1px black;
+    animation: animates 2s linear infinite;
+}
+@keyframes animates{
+    0%{
+        color: white;
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        color: #ffffcc;
+        filter: hue-rotate(360deg);
+    }
+}
+h1{
+    text-align: center;
+    margin-top: 300px;
+    color: #fff;
+    text-shadow: 3px 3px 3px goldenrod;
+}
+.featured #images{
+    margin-left: 20px;
+}
+.featured #images img{
+    padding-left: 100px;
+}
+.body div{
+    border: 2px solid rgb(218, 156, 0);
+    width: 252px;
+    border-radius: 10px;
+}
+.body div:hover{
+    box-shadow: 2px 2px 2px 2px #000;
+    transition: 0.4s;
+}
+.body div p{
+    color: #fff;
+    margin-left: 10px;
+}
+.body div div{
+    background-color:rgb(218, 156, 0);
+    height: 40px;
+    width: 251px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.body div div p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.body div #pri{
+    margin-left: 205px;
+    margin-top: -32px;
+}
+.chi .body div .pri {
+    margin-left: 200px;
+    margin-top: -32px;
+}
+.beef .body div .pri {
+    margin-left: 200px;
+    margin-top: -32px;
+}
+.pork .body div .pri {
+    margin-left: 200px;
+    margin-top: -32px;
+}
+.featured .chi{
+    margin-left: 140px;
+    margin-top: -6px;
+}
+.featured .beef{
+    margin-left: 535px;
+    margin-top: -398px;
+}
+.featured .pork{
+    float: right;
+    margin-top: -396px;
+    margin-right: 140px;
+}
+.three img{
+    margin-left: 50px;
+}
+.three a .img6{
+    float: right; 
+    margin-right: 100px;
+    margin-top: -300px;
+}
+.three div p{
+    color: rgb(230, 157, 0);
+    float: right;
+    font-size: 40px;
+    margin-right: 100px;
+    margin-top: -600px;
+}
+.three div p b {
+    margin-left: 100px;
+}
+.three #paragraph{
+    font-weight: bold; 
+    font-size:30px;
+    float:right;
+    margin-right: 100px;
+    margin-top:-190px;
+    color: rgb(230, 157, 0); 
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+}
+.three div button{
+    float: right;
+    margin-top: -450px;
+    margin-right: 100px;
+    border: none;
+    background-color: rgb(230, 157, 0);
+    width: 100px;
+    height: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.three div button:hover{
+    background: linear-gradient( to bottom right, #1e1e20, #121018);
+    box-shadow: 2px 2px 2px 2px goldenrod;
+    color: goldenrod;
+    transition: 0.3s;
+}
+.featured .spe{
+    margin-left: 220px;
+}
+.featured .spe div:hover{
+    box-shadow: 2px 2px 2px 2px #000;
+    transition: 0.4s;
+}
+.featured .img7{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.featured .img8{
+    margin-left: 750px;
+    margin-top: -400px;
+}
+.featured .img9{
+    float: right;
+    margin-top:-750px;
+    margin-right: 50px;
+}
+.featured .spe div{
+    border: 2px solid rgb(218, 156, 0);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.featured .spe div div{
+    background-color: rgb(218, 156, 0);
+    width: 300px;
+    height: 50px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.featured .paragraph1{
+    color: #fff;
+    margin-left: 600px;
+    margin-top: -100px;
+}
+.featured .spe div div p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 12px;
+}
+.featured .met{
+    float: right;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+div .img10{
+    margin-left: 100px;
+}
+.featured .met div{
+    border: 2px solid rgb(218, 156, 0);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.featured .met div:hover{
+    box-shadow: 2px 2px 2px 2px #000;
+    transition: 0.4s;
+}
+.featured .met div div p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.featured .met div div{
+    background-color: rgb(218, 156, 0);
+    width: 299px;
+    height: 40px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.featured .mus{
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.featured .mus div{
+    border: 2px solid rgb(218, 156, 0);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.featured .mus .paragraph3 {
+    color: #fff;
+    margin-left: 350px;
+    margin-top: -60px;
+}
+.featured .mus div:hover{
+    box-shadow: 2px 2px 2px 2px #000;
+    transition: 0.4s;
+}
+.featured .mus div div p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.featured .mus div div p{
+    text-shadow: 2px 2px 2px black;
+    animation: animates 2s linear infinite;
+}
+@keyframes animates{
+    0%{
+        color: white;
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        color: #e5f403;
+        filter: hue-rotate(360deg);
+    }
+}
+.featured .mus div div{
+    background-color: rgb(218, 156, 0);
+    width: 299px;
+    height: 40px;
+    margin-top: -1px;
+    margin-left: -1px;
+
+}
+.featured .img11{
+    margin-left: 130px;
+}
+.featured .foot{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#about a .img12{
+    margin-left:560px;
+}
+.featured .foot div{
+    border: 2px solid rgb(218, 156, 0);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+#about .paragraph4{
+    color: rgb(218, 156, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #fff;
+}
+.featured .foot div:hover{
+    box-shadow: 2px 2px 2px 2px #000;
+    transition: 0.4s;
+}
+#about #links{
+    float: right;
+    margin-right:300px;
+    margin-top:-70px;
+}
+.featured .foot div div p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 5px;
+}
+#about .paragraph5{
+    color: #fff;
+    font-size:30px;
+    margin-left:410px;
+}
+.featured .foot div div p{
+    text-shadow: 2px 2px 2px black;
+    animation: animates 2s linear infinite;
+}
+@keyframes animates{
+    0%{
+        color: white;
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        color: #e5f403;
+        filter: hue-rotate(360deg);
+    }
+}
+.featured .foot div div{
+    background-color: rgb(218, 156, 0);
+    width: 299px;
+    height: 40px;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-top: 40px;
+}
+footer ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+footer ul li a:hover{
+    color: rgb(218, 156, 0);
+    text-shadow: 1px 1px 1px #fff;
+    transition: 0.4s;
+    font-weight: bold;
+}
+#about #nav{
+    margin-left: 700px;
+    margin-top: -215px;
+}
+#about #nav #nav1{
+    margin-left: 130px;
+    margin-top: -205px;
+}
+#about .featured .foot div p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer #links img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#about #links a #paragraph6{
+    color:rgb(218, 156, 0);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 230px;
+    margin-top: -45px;
+}
+#btn.is-active span:nth-child(1){
+    transform: translate(0px , -2px) rotate(45deg);
+}
+#btn.is-active span:nth-child(2){
+    opacity: 0;
+    transform: translateX(15px);
+}
+#btn.is-active span:nth-child(3){
+    transform: translate(-3px , 3px) rotate(-45deg);
+}
+#btn.is-active span{
+    background-color: #fff;
+}
+
+/* ********** MEDIA SCREEN ********** */
+
+/*@media screen and (min-width: 2560px){
+    header nav {
+        margin-left: 900px;
+        width: 770px;
+    }
+    header nav ul li a {
+        font-size: 30px;
+    }
+    #btn{
+        display: none;
+    }
+    article div {
+        font-size: 40px;
+        width: 400px;
+        margin-left: 1075px;
+    }
+    article div div {
+        width: 395px;
+    }
+    article div div p {
+        margin-top: -2px;
+    }
+    article #p {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .featured #images img {
+        padding-left: 325px;
+        width: 400px;
+        height: 350px;
+    }
+    .featured .chi {
+        font-size: 40px;
+        margin-left: 300px;
+    }
+    .featured .beef {
+        font-size: 40px;
+        margin-left: 1010px;
+        margin-top: -873px;
+    }
+    .featured .pork {
+        font-size: 40px;
+        margin-right: 310px;
+        margin-top: -873px;
+    }
+    .body div {
+        width: 500px;
+    }
+    .body div #pri {
+        margin-left: 390px;
+        margin-top: -85px;
+    }
+    .body div div {
+        width: 499px;
+        height: 65px;
+    }
+    .body div div p {
+        font-size: 40px;
+    }
+    .chi .body div .pri {
+        margin-left: 380px;
+        margin-top: -85px;
+    }
+    .beef .body div .pri {
+        margin-left: 380px;
+        margin-top: -85px;
+    }
+    .pork .body div .pri {
+        margin-left: 380px;
+        margin-top: -85px;
+    }
+    .three img {
+        margin-left: 200px;
+        width: 900px;
+    }
+    .three div p {
+        font-size: 60px;
+    }
+    .three div button {
+        margin-top: -380px;
+        width: 200px;
+        height: 40px;
+        font-size: 30px;
+    }
+    .three a .img6 {
+        width: 300px;
+        height: 150px;
+        margin-top: -200px;
+    }
+    .three #paragraph {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .three div p b {
+        margin-left: 150px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    .featured .paragraph1 {
+        margin-right: 400px;
+        float: right;
+        font-size: 30px;
+        margin-top: -120px;
+    }
+    .featured .spe div {
+        width: 400px;
+        font-size: 30px;
+    }
+    .featured .spe div div {
+        width: 399px;
+        font-size: 30px;
+    }
+    .featured .spe {
+        margin-left: 500px;
+    }
+    .featured .img7 {
+        margin-left: 400px;
+        margin-top: 100px;
+        width: 700px;
+    }
+    .featured .img8 {
+        margin-left: 1500px;
+    }
+    .featured .img9 {
+        margin-right: 300px;
+    }
+    div .img10 {
+        margin-left: 400px;
+    }
+    .featured .met div {
+        width: 400px;
+        font-size: 30px;
+    }
+    .featured .met div div p {
+        font-size: 25px;
+    }
+    .featured .met div div {
+        width: 399px;
+    }
+    .featured .met {
+        margin-right: 300px;
+        margin-top: 150px;
+    }
+    .featured .mus div {
+        width: 400px;
+        font-size: 30px;
+    }.featured .mus div div p {
+        font-size: 30px;
+    }
+    .featured .mus div div {
+        width: 399px;
+    }
+    .featured .mus .paragraph3 {
+        margin-top: -90px;
+        font-size: 30px;
+        margin-right: 400px;
+        float: right;
+    }
+    .featured .mus {
+        margin-left: 500px;
+    }
+    .featured .img11 {
+        margin-left: 250px;
+    }
+    #about .paragraph4 {
+        font-size: 50px;
+    }
+    #about a .img12 {
+        margin-left: 1160px;
+    }
+    .featured .foot {
+        margin-left: 500px;
+    }
+    .featured .foot div {
+        width: 400px;
+        font-size: 30px;
+    }
+    .featured .foot div div {
+        width: 399px;
+        height: 60px;
+    }
+    .featured .foot div div p {
+        font-size: 40px;
+    }
+    #about .featured .foot div p {
+        font-size: 30px;
+    }
+    footer ul {
+        margin-left: 500px;
+    }
+    footer ul li a {
+        font-size: 40px;
+    }
+    #about #nav {
+        margin-top: -280px;
+    }
+    #about #nav #nav1 {
+        margin-left: 250px;
+        margin-top: -280px;
+    }
+    #about .paragraph5 {
+        font-size: 50px;
+        margin-left: 645px;
+    }
+    #about #links a #paragraph6 {
+        font-size: 40px;
+        margin-top: -55px;
+    }
+    #about #links {
+        margin-right: 880px;
+        margin-top: -95px;
+    }
+} */
+
+/* ******************************************* */
+
+/* @media screen and (min-width: 1440px) and (max-width: 2559px){
+    #btn{
+        display: none;
+    }
+    article div {
+        margin-left: 555px;
+    }
+    article div p {
+        font-size: 33px;
+    }
+    article div div p {
+        font-size: 35px;
+    }
+    article #p {
+        font-size: 30px;
+    }
+    .featured #images {
+        margin-left: 60px;
+    }
+    .featured .chi {
+        margin-left: 183px;
+    }
+    .featured .beef {
+        margin-left: 585px;
+        margin-top: -411px;
+    }
+    .featured .pork {
+        margin-top: -410px;
+        margin-right: 190px;
+    }
+    .featured .pork #bod{
+        margin-top: 10px;
+    }
+    .featured .img11 {
+        margin-left: 140px;
+    }
+    #about a .img12 {
+        margin-left: 605px;
+    }
+    #about #nav #nav1 {
+        margin-top: -220px;
+    }
+    #about #links {
+        margin-right: 400px;
+    }
+} */
+
+/* ******************************************* */
+
+/* @media screen and (min-width: 1024px) and (max-width: 1365px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 60vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 900px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 50px;
+    }
+    #home section .img1{
+        width: 250px;
+    }
+    #home section .img2{
+        width: 250px;
+    }
+    article {
+        margin-top: -350px;
+        margin-left: -75px;
+    }
+    article div {
+        margin-left: 425px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 310px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 245px;
+    }
+    .featured .chi {
+        margin-left: 240px;
+        margin-top: -950px;
+        display: flex;
+        gap: 10px;
+    }
+    .featured #images .img4 {
+        margin-top: 250px;
+        margin-left: 245px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 240px;
+        display: flex;
+        gap: 10px;
+    }
+    .featured #images .img5 {
+        margin-top: 250px;
+        margin-left: 245px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 240px;
+        display: flex;
+        gap: 10px;
+    }
+    .three img {
+        margin-top: 250px;
+        margin-left: 20px;
+        width: 500px;
+        height: 450px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 50px;
+    }
+    .three div button{
+        margin-right: 50px;
+    }
+    .three #paragraph{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 200px;
+    }
+    .featured .paragraph1{
+        text-align: center;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+    .featured .img7{
+        width: 450px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .featured .img8{
+        width: 300px;
+        margin-left: 550px;
+        margin-top: -350px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -600px;
+    }
+    div .img10{
+        width: 500px;
+        height: 450px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .featured .mus{
+        margin-left: 200px;
+    }
+    .featured .mus .paragraph3 {
+        margin-right: 20px;
+        text-align: center;
+        margin-top: -90px;
+    }
+    .featured .img11{
+        margin-left: 100px;
+    }
+    #about a .img12{
+        margin-left: 400px;
+    }
+    #about .featured{
+        margin-top: 100px;
+        margin-left: -100px;
+    }
+    #about .paragraph5{
+        margin-left: 315px;
+    }
+    #about #links{
+        margin-right: 150px;
+    }
+    #about #nav{
+        margin-left: 150px;
+        margin-top: -225px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+        margin-top: -220px;
+    }
+} */
+
+/* ******************************************* */
+
+/* @media screen and (min-width: 768px) and (max-width: 1023px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 60vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 700px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 50px;
+    }
+    #home section .img1{
+        width: 250px;
+    }
+    #home section .img2{
+        width: 250px;
+    }
+    article {
+        margin-top: -350px;
+        margin-left: -75px;
+    }
+    article div {
+        margin-left: 297px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 310px;
+        font-size: 17px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 115px;
+    }
+    .featured .chi {
+        margin-left: 115px;
+        margin-top: -950px;
+        display: flex;
+        gap: 10px;
+    }
+    .featured #images .img4 {
+        margin-top: 250px;
+        margin-left: 115px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 115px;
+        display: flex;
+        gap: 10px;
+    }
+    .featured #images .img5 {
+        margin-top: 250px;
+        margin-left: 115px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 125px;
+        display: flex;
+        gap: 10px;
+    }
+    .three img {
+        margin-top: 250px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 50px;
+    }
+    .three div button{
+        margin-right: 50px;
+    }
+    .three #paragraph{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 230px;
+    }
+    .featured .paragraph1{
+        margin-left: 40px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .featured .img7{
+        width: 450px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .featured .img8{
+        width: 250px;
+        margin-left: 500px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -650px;
+    }
+    .featured .met {
+        margin-right: 230px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+    .featured .mus{
+        margin-left: 230px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -230px;
+    }
+    .featured .img11{
+        margin-left: 75px;
+    }
+    #about a .img12{
+        margin-left: 270px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -70px;
+    }
+    #about .paragraph5{
+        margin-left: 349px;
+        margin-top: -270px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 200px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+} */
+
+/* ******************************************* */
+
+/* @media screen and (max-width: 425px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 82px;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 60vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 350px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -150px;
+        margin-top: -10px;
+    }
+    article div {
+        margin-left: 205px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 150px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -100px;
+    }
+    .featured #images .img3 {
+        margin-left: -58px;
+    }
+    .featured .chi {
+        margin-left: 85px;
+        margin-top: -1380px;
+    }
+    .featured #images .img4 {
+        margin-left: -58px;
+        margin-top: 450px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 85px;
+    }
+    .featured #images .img5 {
+        margin-left: -58px;
+        margin-top: 500px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 85px;
+    }
+    .three img {
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .three a .img6{
+        width: 100px;
+        height: 110px;
+        margin-top: -180px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-left: -60px;
+        font-size: 38px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 75px;
+        margin-top: -50px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 60px;
+    }
+    .featured .paragraph1{
+        margin-left: 30px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .featured .img7{
+        width: 150px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 220px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 150px;
+        height: 200px;
+        margin-top: -400px;
+    }
+    .featured .met {
+        margin-right: 61px;
+    }
+    div .img10{
+        width: 350px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    .featured .mus{
+        margin-left: 60px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .featured .img11{
+        margin-left: 37px;
+        width: 350px;
+    }
+    #about a .img12{
+        margin-left: 112px;
+        width: 200px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -240px;
+    }
+    #about .paragraph5{
+        margin-left: 178px;
+        margin-top: -270px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 100px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -180px;
+        margin-top: 100px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+    #about #links a #paragraph6{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+} */
+
+/* ******************************************* */
+
+@media screen and (min-width: 415px) and (max-width: 896px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 95vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 800px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -161px;
+        margin-top: -260px;
+    }
+    article div {
+        margin-left: 445px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 327px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 177px;
+    }
+    .featured .chi {
+        margin-left: 317px;
+        margin-top: -1340px;
+    }
+    .featured #images .img4 {
+        margin-top: 450px;
+        margin-left: 177px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 317px;
+    }
+    .featured #images .img5 {
+        margin-top: 460px;
+        margin-left: 177px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 323px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-top: -650px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 295px;
+    }
+    .featured .paragraph1{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .featured .img8{
+        width: 200px;
+        margin-left: 550px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+        margin-right: 70px;
+    }
+    .featured .met {
+        margin-right: 295px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 255px;
+    }
+    .featured .mus{
+        margin-left: 295px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -300px;
+    }
+    .featured .img11{
+        margin-left: 90px;
+    }
+    #about a .img12{
+        margin-left: 335px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -82px;
+    }
+    .featured .foot {
+        margin-left: 380px;
+        margin-top: 50px;
+    }
+    #about .paragraph5{
+        margin-left: 415px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 335px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (min-width: 413px) and (max-width: 915px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 95vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 800px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -161px;
+        margin-top: -260px;
+    }
+    article div {
+        margin-left: 455px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 327px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 185px;
+    }
+    .featured .chi {
+        margin-left: 325px;
+        margin-top: -1340px;
+    }
+    .featured #images .img4 {
+        margin-top: 450px;
+        margin-left: 185px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 325px;
+    }
+    .featured #images .img5 {
+        margin-top: 460px;
+        margin-left: 185px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 333px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-top: -650px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 305px;
+    }
+    .featured .paragraph1{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .featured .img8{
+        width: 200px;
+        margin-left: 550px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+        margin-right: 70px;
+    }
+    .featured .met {
+        margin-right: 305px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 265px;
+    }
+    .featured .mus{
+        margin-left: 305px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -300px;
+    }
+    .featured .img11{
+        margin-left: 90px;
+    }
+    #about a .img12{
+        margin-left: 340px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -74px;
+    }
+    .featured .foot {
+        margin-left: 380px;
+        margin-top: 50px;
+    }
+    #about .paragraph5{
+        margin-left: 425px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 345px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (min-width: 391px) and (max-width: 844px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 95vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 750px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -161px;
+        margin-top: -260px;
+    }
+    article div {
+        margin-left: 420px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 327px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 150px;
+    }
+    .featured .chi {
+        margin-left: 290px;
+        margin-top: -1340px;
+    }
+    .featured #images .img4 {
+        margin-top: 450px;
+        margin-left: 150px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 290px;
+    }
+    .featured #images .img5 {
+        margin-top: 460px;
+        margin-left: 150px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 298px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-top: -650px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 270px;
+    }
+    .featured .paragraph1{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .featured .img8{
+        width: 200px;
+        margin-left: 550px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+        margin-right: 70px;
+    }
+    .featured .met {
+        margin-right: 270px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 230px;
+    }
+    .featured .mus{
+        margin-left: 270px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -290px;
+    }
+    .featured .img11{
+        margin-left: 85px;
+    }
+    #about a .img12{
+        margin-left: 310px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -110px;
+    }
+    .featured .foot {
+        margin-left: 380px;
+        margin-top: 50px;
+    }
+    #about .paragraph5{
+        margin-left: 390px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 310px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (min-width: 361px) and (max-width: 740px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 620px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -161px;
+        margin-top: -260px;
+    }
+    article div {
+        margin-left: 370px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 327px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 97px;
+    }
+    .featured .chi {
+        margin-left: 240px;
+        margin-top: -1300px;
+    }
+    .featured #images .img4 {
+        margin-top: 430px;
+        margin-left: 97px;
+    }
+    .featured .beef {
+        margin-top: 250px;
+        margin-left: 240px;
+    }
+    .featured #images .img5 {
+        margin-top: 430px;
+        margin-left: 97px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 240px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 50px;
+        margin-top: -650px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 50px;
+    }
+    .three #paragraph{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 220px;
+    }
+    .featured .paragraph1{
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .featured .img8{
+        width: 200px;
+        margin-left: 430px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+    }
+    .featured .met {
+        margin-right: 220px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 175px;
+    }
+    .featured .mus{
+        margin-left: 220px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -220px;
+    }
+    .featured .img11{
+        margin-left: 72px;
+    }
+    #about a .img12{
+        margin-left: 255px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -82px;
+    }
+    #about .paragraph5{
+        margin-left: 335px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 260px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (min-width: 321px) and (max-width: 658px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 108vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -30px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -35px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 570px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -152px;
+        margin-top: -260px;
+    }
+    article div {
+        margin-left: 320px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 320px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 60px;
+    }
+    .featured .chi {
+        margin-left: 202px;
+        margin-top: -1300px;
+    }
+    .featured #images .img4 {
+        margin-top: 430px;
+        margin-left: 60px;
+    }
+    .featured .beef {
+        margin-top: 250px;
+        margin-left: 202px;
+    }
+    .featured #images .img5 {
+        margin-top: 430px;
+        margin-left: 60px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 202px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 50px;
+        margin-top: -650px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 50px;
+    }
+    .three #paragraph{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 180px;
+    }
+    .featured .paragraph1{
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .featured .img8{
+        width: 200px;
+        margin-left: 430px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+    }
+    .featured .met {
+        margin-right: 180px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+    .featured .mus{
+        margin-left: 180px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -180px;
+    }
+    .featured .img11{
+        margin-left: 65px;
+    }
+    #about a .img12{
+        margin-left: 220px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -120px;
+    }
+    #about .paragraph5{
+        margin-left: 298px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 220px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (min-width: 376px) and (max-width: 667px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 102vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -30px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 580px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -148px;
+        margin-top: -260px;
+    }
+    article div {
+        margin-left: 320px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 320px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 65px;
+    }
+    .featured .chi {
+        margin-left: 207px;
+        margin-top: -1300px;
+    }
+    .featured #images .img4 {
+        margin-top: 430px;
+        margin-left: 65px;
+    }
+    .featured .beef {
+        margin-top: 250px;
+        margin-left: 207px;
+    }
+    .featured #images .img5 {
+        margin-top: 430px;
+        margin-left: 65px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 207px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 50px;
+        margin-top: -650px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 50px;
+    }
+    .three #paragraph{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 180px;
+    }
+    .featured .paragraph1{
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .featured .img8{
+        width: 200px;
+        margin-left: 430px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+    }
+    .featured .met {
+        margin-right: 180px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+    .featured .mus{
+        margin-left: 180px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -180px;
+    }
+    .featured .img11{
+        margin-left: 65px;
+    }
+    #about a .img12{
+        margin-left: 220px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -120px;
+    }
+    #about .paragraph5{
+        margin-left: 298px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 220px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (min-width: 361px) and (max-width: 640px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 580px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -161px;
+        margin-top: -260px;
+    }
+    article div {
+        margin-left: 320px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 327px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: 50px;
+    }
+    .featured .chi {
+        margin-left: 190px;
+        margin-top: -1300px;
+    }
+    .featured #images .img4 {
+        margin-top: 430px;
+        margin-left: 50px;
+    }
+    .featured .beef {
+        margin-top: 250px;
+        margin-left: 190px;
+    }
+    .featured #images .img5 {
+        margin-top: 430px;
+        margin-left: 50px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 190px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 450px;
+        height: 400px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 50px;
+        margin-top: -650px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 50px;
+    }
+    .three #paragraph{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 170px;
+    }
+    .featured .paragraph1{
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .featured .img8{
+        width: 200px;
+        margin-left: 430px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+    }
+    .featured .met {
+        margin-right: 170px;
+    }
+    div .img10{
+        width: 400px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    .featured .mus{
+        margin-left: 170px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -180px;
+    }
+    .featured .img11{
+        margin-left: 65px;
+    }
+    #about a .img12{
+        margin-left: 205px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -130px;
+    }
+    #about .paragraph5{
+        margin-left: 288px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 210px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (min-width: 321px) and (max-width: 480px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 108vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -30px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -35px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 400px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -236px;
+        margin-top: -20px;
+    }
+    article div {
+        margin-left: 320px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 235px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -40px;
+    }
+    .featured #images .img3 {
+        margin-left: -30px;
+    }
+    .featured .chi {
+        margin-left: 113px;
+        margin-top: -1300px;
+    }
+    .featured #images .img4 {
+        margin-top: 430px;
+        margin-left: -30px;
+    }
+    .featured .beef {
+        margin-top: 250px;
+        margin-left: 113px;
+    }
+    .featured #images .img5 {
+        margin-top: 430px;
+        margin-left: -30px;
+    }
+    .featured .pork {
+        margin-top: 270px;
+        margin-right: 113px;
+    }
+    .three img {
+        margin-top: 280px;
+        margin-left: 20px;
+        width: 300px;
+        height: 350px;
+    }
+    .three a .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-top: -600px;
+    }
+    .three div p b {
+        margin-left: 103px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 88px;
+    }
+    .featured .paragraph1{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .featured .img7{
+        width: 250px;
+        height: 300px;
+        margin-left: 30px;
+        margin-top: 150px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 300px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 200px;
+        height: 200px;
+        margin-top: -480px;
+    }
+    .featured .met {
+        margin-right: 88px;
+    }
+    div .img10{
+        width: 300px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 95px;
+    }
+    .featured .mus{
+        margin-left: 88px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -90px;
+    }
+    .featured .img11{
+        margin-left: 48px;
+    }
+    #about a .img12{
+        margin-left: 125px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -213px;
+    }
+    #about .paragraph5{
+        margin-left: 205px;
+        margin-top: -270px;
+    }
+    #about #links a #paragraph6 {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 130px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -185px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 290px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (max-width: 414px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 82px;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 350px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -150px;
+        margin-top: -10px;
+    }
+    article div {
+        margin-left: 202px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 150px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -100px;
+    }
+    .featured #images .img3 {
+        margin-left: -62px;
+    }
+    .featured .chi {
+        margin-left: 80px;
+        margin-top: -1380px;
+    }
+    .featured #images .img4 {
+        margin-left: -62px;
+        margin-top: 450px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 80px;
+    }
+    .featured #images .img5 {
+        margin-left: -62px;
+        margin-top: 500px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 80px;
+    }
+    .three img {
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .three a .img6{
+        width: 100px;
+        height: 110px;
+        margin-top: -180px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-left: -60px;
+        font-size: 38px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 75px;
+        margin-top: -50px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 55px;
+    }
+    .featured .paragraph1{
+        margin-left: 30px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .featured .img7{
+        width: 150px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 220px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 150px;
+        height: 200px;
+        margin-top: -400px;
+    }
+    .featured .met {
+        margin-right: 55px;
+    }
+    div .img10{
+        width: 350px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    .featured .mus{
+        margin-left: 55px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .featured .img11{
+        margin-left: 32px;
+        width: 350px;
+    }
+    #about a .img12{
+        margin-left: 105px;
+        width: 200px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -325px;
+    }
+    #about .paragraph5{
+        margin-left: 178px;
+        margin-top: -270px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 100px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -180px;
+        margin-top: 100px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+    #about #links a #paragraph6{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (max-width: 412px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 82px;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 340px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -150px;
+        margin-top: -10px;
+    }
+    article div {
+        margin-left: 202px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 150px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -100px;
+    }
+    .featured #images .img3 {
+        margin-left: -64px;
+    }
+    .featured .chi {
+        margin-left: 77px;
+        margin-top: -1380px;
+    }
+    .featured #images .img4 {
+        margin-left: -64px;
+        margin-top: 450px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 77px;
+    }
+    .featured #images .img5 {
+        margin-left: -64px;
+        margin-top: 500px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 77px;
+    }
+    .three img {
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .three div p b {
+        margin-left: 98px;
+    }
+    .three a .img6{
+        width: 100px;
+        height: 110px;
+        margin-top: -180px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-left: -60px;
+        font-size: 38px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 75px;
+        margin-top: -50px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 55px;
+    }
+    .featured .paragraph1{
+        margin-left: 30px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .featured .img7{
+        width: 150px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 220px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 150px;
+        height: 200px;
+        margin-top: -400px;
+    }
+    .featured .met {
+        margin-right: 55px;
+    }
+    div .img10{
+        width: 350px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    .featured .mus{
+        margin-left: 55px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .featured .img11{
+        margin-left: 32px;
+        width: 350px;
+    }
+    #about a .img12{
+        margin-left: 105px;
+        width: 200px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -325px;
+    }
+    #about .paragraph5{
+        margin-left: 178px;
+        margin-top: -270px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 100px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -180px;
+        margin-top: 100px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+    #about #links a #paragraph6{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (max-width: 390px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 82px;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 320px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+        margin-right: -1px;
+    }
+    article {
+        margin-left: -150px;
+        margin-top: -10px;
+    }
+    article div {
+        margin-left: 190px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 150px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -100px;
+    }
+    .featured #images .img3 {
+        margin-left: -75px;
+    }
+    .featured .chi {
+        margin-left: 67px;
+        margin-top: -1380px;
+    }
+    .featured #images .img4 {
+        margin-left: -75px;
+        margin-top: 450px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 67px;
+    }
+    .featured #images .img5 {
+        margin-left: -75px;
+        margin-top: 500px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 67px;
+    }
+    .three img {
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .three a .img6{
+        width: 100px;
+        height: 110px;
+        margin-top: -180px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 30px;
+        margin-left: -60px;
+        font-size: 38px;
+    }
+    .three div p b {
+        margin-left: 98px;
+    }
+    .three div button{
+        margin-right: 30px;
+    }
+    .three #paragraph{
+        margin-right: 60px;
+        margin-top: -50px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 43px;
+    }
+    .featured .paragraph1{
+        margin-left: 30px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .featured .img7{
+        width: 150px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 220px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 150px;
+        height: 200px;
+        margin-top: -400px;
+    }
+    .featured .met {
+        margin-right: 43px;
+    }
+    div .img10{
+        width: 350px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .featured .mus{
+        margin-left: 43px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 20px;
+        margin-left: -20px;
+    }
+    .featured .img11{
+        margin-left: 20px;
+        width: 350px;
+    }
+    #about a .img12{
+        margin-left: 95px;
+        width: 200px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -245px;
+    }
+    .featured .foot {
+        margin-left: 290px;
+        margin-top: 50px;
+    }
+    #about .paragraph5{
+        margin-left: 165px;
+        margin-top: -270px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 85px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -180px;
+        margin-top: 100px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+    #about #links a #paragraph6{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (max-width: 375px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 65vh;
+        background: linear-gradient( to bottom right, #1e1e20, #121018);
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 300px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -148px;
+        margin-top: -10px;
+    }
+    article div {
+        margin-left: 180px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 150px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -100px;
+    }
+    .featured #images .img3 {
+        margin-left: -82px;
+    }
+    .featured .chi {
+        margin-left: 60px;
+        margin-top: -1380px;
+    }
+    .featured #images .img4 {
+        margin-left: -82px;
+        margin-top: 450px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 60px;
+    }
+    .featured #images .img5 {
+        margin-left: -82px;
+        margin-top: 500px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 60px;
+    }
+    .three img {
+        margin-top: 400px;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .three a .img6{
+        width: 100px;
+        height: 110px;
+        margin-top: -180px;
+        margin-right: 20px;
+    }
+    .three div p b {
+        margin-left: 98px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 20px;
+        margin-left: -60px;
+        font-size: 38px;
+        margin-top: -600px;
+    }
+    .three div button{
+        margin-right: 20px;
+    }
+    .three #paragraph{
+        margin-right: 50px;
+        margin-top: -50px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 35px;
+    }
+    .featured .paragraph1{
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .featured .img7{
+        width: 150px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 170px;
+        margin-top: -140px;
+    }
+    .featured .img9{
+        width: 150px;
+        height: 200px;
+        margin-top: -400px;
+    }
+    .featured .met {
+        margin-right: 35px;
+    }
+    div .img10{
+        width: 300px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 38px;
+    }
+    .featured .mus{
+        margin-left: 35px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -30px;
+    }
+    .featured .img11{
+        margin-left: 28px;
+        width: 320px;
+    }
+    #about a .img12{
+        margin-left: 90px;
+        width: 200px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -265px;
+    }
+    #about .paragraph5{
+        margin-left: 155px;
+        margin-top: -270px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 80px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -180px;
+        margin-top: 100px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+    #about #links a #paragraph6{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (max-width: 360px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 65vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 280px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+    }
+    article {
+        margin-left: -150px;
+        margin-top: -10px;
+    }
+    article div {
+        margin-left: 175px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 150px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -100px;
+    }
+    .featured #images .img3 {
+        margin-left: -89px;
+    }
+    .featured .chi {
+        margin-left: 53px;
+        margin-top: -1380px;
+    }
+    .featured #images .img4 {
+        margin-left: -90px;
+        margin-top: 450px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 53px;
+    }
+    .featured #images .img5 {
+        margin-left: -90px;
+        margin-top: 500px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 53px;
+    }
+    .three img {
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .three a .img6{
+        width: 100px;
+        height: 110px;
+        margin-top: -180px;
+        margin-right: 30px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 20px;
+        margin-left: -60px;
+        font-size: 35px;
+        margin-top: -600px;
+    }
+    .three div p b {
+        margin-left: 90px;
+    }
+    .three div button{
+        margin-right: 20px;
+    }
+    .three #paragraph{
+        margin-right: 45px;
+        margin-top: -50px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 28px;
+    }
+    .featured .paragraph1{
+        margin-left: 20px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .featured .img7{
+        width: 150px;
+        height: 250px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 170px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 150px;
+        height: 200px;
+        margin-top: -400px;
+    }
+    .featured .met {
+        margin-right: 28px;
+    }
+    div .img10{
+        width: 300px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .featured .mus{
+        margin-left: 28px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -25px;
+    }
+    .featured .img11{
+        margin-left: 30px;
+        width: 300px;
+    }
+    #about a .img12{
+        margin-left: 80px;
+        width: 200px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -272px;
+    }
+    #about .paragraph5{
+        margin-left: 145px;
+        margin-top: -270px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 70px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -180px;
+        margin-top: 100px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+    #about #links a #paragraph6{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+}
+
+/* ******************************************* */
+
+@media screen and (max-width: 320px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0;
+        border-bottom: 1px solid #fff;
+        z-index: 100;
+    }
+    header nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 85vh;
+        background-color: #000;
+        margin-top: -20px;
+        border-bottom: 5px solid rgb(187, 142, 28);
+        border-radius:50px ;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: -27px;
+        margin-top: 60px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    header nav ul.is-active{
+        display: block;
+    }
+    #btn{
+        display: block;
+        margin-left: 250px;
+        margin-top: -63px;
+        z-index: 1000;
+    }
+    #home header img{
+        margin-left: 20px;
+        width: 150px;
+    }
+    #home section .img1{
+        width: 180px;
+        height: 395px;
+    }
+    #home section .img2{
+        width: 180px;
+        height: 395px;
+        margin-top: -400px;
+    }
+    article {
+        margin-left: -150px;
+        margin-top: -10px;
+    }
+    article div {
+        margin-left: 155px;
+        margin-top: 1px;
+    }
+    article div div p {
+        margin-left: -5px;
+    }
+    article #p {
+        margin-left: 150px;
+        font-size: 18px;
+    }
+    .featured{
+        margin-top: -100px;
+    }
+    .featured #images .img3 {
+        margin-left: -110px;
+    }
+    .featured .chi {
+        margin-left: 32px;
+        margin-top: -1380px;
+    }
+    .featured #images .img4 {
+        margin-left: -110px;
+        margin-top: 450px;
+    }
+    .featured .beef {
+        margin-top: 280px;
+        margin-left: 32px;
+    }
+    .featured #images .img5 {
+        margin-left: -110px;
+        margin-top: 500px;
+    }
+    .featured .pork {
+        margin-top: 300px;
+        margin-right: 32px;
+    }
+    .three img {
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .three a .img6{
+        width: 100px;
+        height: 110px;
+        margin-top: -180px;
+        margin-right: 20px;
+    }
+    .three div{
+        margin-top: 100px;
+    }
+    .three div p{
+        margin-right: 20px;
+        margin-left: -60px;
+        font-size: 30px;
+        margin-top: -570px;
+    }
+    .three div p b {
+        margin-left: 77px;
+    }
+    .three div button{
+        margin-right: 20px;
+    }
+    .three #paragraph {
+        margin-right: 25px;
+        margin-top: -50px;
+    }
+    #specials{
+        margin-top: 100px;
+    }
+    #specials .spe{
+        margin-left: 8px;
+    }
+    .featured .paragraph1{
+        margin-left: 30px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .featured .img7{
+        width: 150px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .featured .img8{
+        width: 150px;
+        margin-left: 170px;
+        margin-top: -230px;
+    }
+    .featured .img9{
+        width: 150px;
+        height: 200px;
+        margin-top: -400px;
+    }
+    .featured .met {
+        margin-right: 7px;
+    }
+    div .img10{
+        width: 300px;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .featured .mus{
+        margin-left: 8px;
+    }
+    .featured .mus .paragraph3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -8px;
+    }
+    .featured .img11{
+        margin-left: 20px;
+        width: 280px;
+    }
+    #about a .img12{
+        margin-left: 60px;
+        width: 200px;
+    }
+    #about .featured{
+        margin-top: 50px;
+        margin-left: -292px;
+    }
+    #about .paragraph5{
+        margin-left: 125px;
+        margin-top: -270px;
+    }
+    .featured .foot {
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+    #about #links{
+        margin-top: 200px;
+        margin-right: 50px;
+        padding-bottom: 100px;
+    }
+    #about #nav{
+        margin-left: -180px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #about #nav #nav1{
+        margin-left: 300px;
+    }
+    #about #links a #paragraph6{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+}
